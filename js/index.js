@@ -5,17 +5,16 @@ $(document).ready(function() {
     $(".mask").height($height);
 
     function showMask(){     
-          $(".mask").show();     
-      }  
-      //隐藏遮罩层  
-      function hideMask(){   
-          $(".mask").hide();    
-      } 
-
-      $(".btn").click(function(){
-        showMask()
-      })
-      $(".btn01").click(function(){
-        hideMask()
-      })
+        $(".mask").show();     
+    }  
+    //隐藏遮罩层  
+    function hideMask(){   
+      $(".mask").hide();    
+    } 
+    $(".btn").click(function(){
+      showMask()
+    })
+    $(".btn01").click(function(){
+      hideMask()
+    })
 })
