@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  /*增加一条注释*/
 }
 .clearfix{
     display: inline-block;
@@ -22,30 +23,30 @@
   display: none;
   z-index: 99;
 }
-    .box{
-      width: 1004px;
-      height: 500px;
-      background: #fff;
+.box{
+  width: 1004px;
+  height: 500px;
+  background: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-top: -250px;
   margin-left: -502px;
   z-index: 999;
-    } 
-    .box>div{
-      height: 100%;
-      float: left;
-    }
-    .box_01{
-      width: 20%;
-      background-color: #ee8c88;
-    } 
-    .box_02{
-      width: 50%;
-      background-color: #9cdf3c;
-    }
-    .box_03{
-      width: 30%;
-      background-color: #fed001;
-    }  
+} 
+.box>div{
+  height: 100%;
+  float: left;
+}
+.box_01{
+  width: 20%;
+  background-color: #ee8c88;
+} 
+.box_02{
+  width: 50%;
+  background-color: #9cdf3c;
+}
+.box_03{
+  width: 30%;
+  background-color: #fed001;
+}  
